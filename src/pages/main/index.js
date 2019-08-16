@@ -66,6 +66,7 @@ export default class Main extends Component {
                 ))}
 
                 <div className='actions'>
+                    
                     <button disabled={ page === 1} onClick = {this.prevPage}>Anterior</button>
                     <button  disabled={ page === productInfo.pages} onClick = {this.nextPage}>Próximo</button>
                 </div>
